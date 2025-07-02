@@ -63,6 +63,9 @@ li{
     padding: 5px;
     flex-direction: column;
   }
+  h1{
+    font-size: 30px;
+  }
 
   .houseImage {
     width: 200px;
