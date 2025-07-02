@@ -35,7 +35,6 @@ li{
     font-size: 50px;
 }
 
-/* 🌐 tablet / ipad (768px and below) */
 @media (max-width: 768px) {
   body {
     font-size: 18px;
@@ -58,11 +57,10 @@ li{
   }
 }
 
-/* 📱 mobile (480px and below) */
 @media (max-width: 480px) {
   body {
     font-size: 16px;
-    padding: 8px;
+    padding: 5px;
     flex-direction: column;
   }
 
