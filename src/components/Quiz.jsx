@@ -78,7 +78,6 @@ return (
       ) : (
         <div className='resultBox'>
           <h1>your results are in!</h1>
-          <hr />
           <img src={sortingHatImg} alt='the sorting hat' className='sortingHatImage'/>
           <p>the sorting hat says: </p>
           <p><em>hmm, interesting. your hogwarts house is:<br /><span className='houseResult'>{winnerHouse}!</span></em></p>
