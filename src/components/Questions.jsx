@@ -2,10 +2,10 @@ const questions = [
   {
     question: "you find a mysterious book in the restricted section. what do you do?",
     options: [
-      { text: "sneak it out and read it under your blanket", house: "gryffindor" },
+      { text: "sneak it out, read it under your blanket", house: "gryffindor" },
       { text: "decode the spells and take notes", house: "ravenclaw" },
-      { text: "show it to the professor to earn brownie points", house: "hufflepuff" },
-      { text: "use the spells to gain an advantage... quietly", house: "slytherin" }
+      { text: "show it to the professor to earn points", house: "hufflepuff" },
+      { text: "use the spells to gain an advantage", house: "slytherin" }
     ]
   },
   {
@@ -20,10 +20,10 @@ const questions = [
   {
     question: "how do you study for exams at hogwarts?",
     options: [
-      { text: "group study but somehow you’re the leader", house: "gryffindor" },
-      { text: "you made color-coded notes two weeks ago", house: "ravenclaw" },
-      { text: "you help others and hope for the best", house: "hufflepuff" },
-      { text: "you got the test answers in advance… maybe", house: "slytherin" }
+      { text: "group study", house: "gryffindor" },
+      { text: "making color-coded notes two weeks ago", house: "ravenclaw" },
+      { text: "helping others and hoping for the best", house: "hufflepuff" },
+      { text: "leverage every resource", house: "slytherin" }
     ]
   },
   {
