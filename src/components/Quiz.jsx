@@ -62,6 +62,7 @@ return (
       {!showResult ? (
         <div>
           <h1>welcome to the hogwarts quiz!</h1>
+          <hr />
           <h3>Q{currentQ + 1}: {questions[currentQ].question}</h3>
           <hr />
           <ul>
@@ -77,6 +78,7 @@ return (
       ) : (
         <div className='resultBox'>
           <h1>your results are in!</h1>
+          <hr />
           <img src={sortingHatImg} alt='the sorting hat' className='sortingHatImage'/>
           <p>the sorting hat says: </p>
           <p><em>hmm, interesting. your hogwarts house is:<br /><span className='houseResult'>{winnerHouse}!</span></em></p>
